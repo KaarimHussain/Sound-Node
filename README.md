@@ -23,27 +23,6 @@ It's built with Electron, Node.js, Angular.js, and uses the Soundcloud API.
 
 And much more!
 
-## Configuration
-
-Since soundcloud applies a rate limit to third party apps, you need to configure your own API key to make soundnode work.
-
-* Login to soundcloud.com on favorite browser
-* Look for an api call and write down the client_id parameter
-![dev tools](doc/img/dev_tools.png)
-* Edit your userConfig.json file (see here for location : https://github.com/eliecharra/soundnode-app/blob/master/app/public/js/common/configLocation.js#L34) and update clientId parameter with the previously retrieved one.
-
-## How to contribute
-
-First, building, testing, and reporting bugs is highly appreciated. Please include the console's output and steps to reproduce the problem in your bug report, if possible.
-
-If you want to develop, you can look at the issues, especially the bugs, and then fix them.
-Here's a [list of issues](https://github.com/Soundnode/soundnode-app/issues?state=open).
-
-## Development
-
-See the [Development page](https://github.com/Soundnode/soundnode-app/wiki/Development) for a complete guide on how to build
-the app locally on your computer.
-
 ## Supported Platforms
 
 - Windows
